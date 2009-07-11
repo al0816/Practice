@@ -109,9 +109,9 @@ double primary()     // read and evaluate a Primary
 //------------------------------------------------------------------------------
 
 int main()
-  cout << "Welcome to our simple calculator." << endl
-       << "Please enter expressions using floating-point numbers." << endl;
 try {
+    cout << "Welcome to our simple calculator." << endl
+         << "Please enter expressions using floating-point numbers." << endl;
     double val = 0;
     while(cin) {
       Token t = ts.get();
